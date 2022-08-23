@@ -12,8 +12,8 @@ import {
   StateTypography,
   State,
   TooltipIcon,
-} from '@chia/core';
-import { useGetKeyringStatusQuery } from '@chia/api-react';
+} from '@cactus/core';
+import { useGetKeyringStatusQuery } from '@cactus/api-react';
 import { Tooltip } from '@mui/material';
 import {
   Help as HelpIcon,

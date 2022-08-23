@@ -1,6 +1,6 @@
 enum PlotterName {
   BLADEBIT = 'bladebit',
-  CHIAPOS = 'chiapos',
+  CACTUSPOS = 'cactuspos',
   MADMAX = 'madmax',
 }
 

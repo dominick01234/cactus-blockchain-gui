@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetWalletBalanceQuery, useGetCurrentDerivationIndexQuery } from '@chia/api-react';
+import { useGetWalletBalanceQuery, useGetCurrentDerivationIndexQuery } from '@cactus/api-react';
 import styled from 'styled-components';
 import WalletGraph from '../WalletGraph';
-import { CardSimple, Flex, TooltipIcon } from '@chia/core';
+import { CardSimple, Flex, TooltipIcon } from '@cactus/core';
 import useWallet from '../../hooks/useWallet';
 import useWalletHumanValue from '../../hooks/useWalletHumanValue';
 import { Typography } from '@mui/material';
