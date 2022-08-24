@@ -131,8 +131,8 @@ msgstr "当您的密钥成功迁移到新密钥串后，您可以选择从旧密
 msgid "All"
 msgstr "全部"
 
-#: src/components/nfts/NFTProfileDropdown.tsx:119
-#: src/components/nfts/NFTProfileDropdown.tsx:154
+#: src/components/nfts/NFTProfileDropdown.tsx:111
+#: src/components/nfts/NFTProfileDropdown.tsx:146
 msgid "All NFTs"
 msgstr "所有 NFT"
 
@@ -214,7 +214,7 @@ msgstr "备份文件将用于恢复智能钱包。"
 msgid "Balance: {standardBalance} CAC"
 msgstr "余额: {standardBalance} CAC"
 
-#: src/components/block/Block.jsx:277
+#: src/components/block/Block.jsx:276
 msgid "Base Farmer Reward Amount"
 msgstr "基础耕种奖励数量"
 
@@ -230,7 +230,7 @@ msgstr "下面是当前区块的挑战。 你的农田或许包含了对这些�
 msgid "Best estimate over last 24 hours"
 msgstr "最近24小时的最佳估值"
 
-#: src/components/block/Block.jsx:136
+#: src/components/block/Block.jsx:142
 msgid "Block"
 msgstr "区块"
 
@@ -238,19 +238,19 @@ msgstr "区块"
 msgid "Block Rewards"
 msgstr "区块奖励"
 
-#: src/components/block/Block.jsx:213
+#: src/components/block/Block.jsx:218
 msgid "Block VDF Iterations"
 msgstr "区块可验证延迟函数迭代"
 
-#: src/components/block/Block.jsx:296
+#: src/components/block/Block.jsx:295
 msgid "Block at height {0} in the Cactus blockchain"
 msgstr "奇亚区块链上高度为 {0} 的区块"
 
-#: src/components/block/Block.jsx:122
+#: src/components/block/Block.jsx:128
 msgid "Block with hash {headerHash}"
 msgstr "区块哈希{headerHash}"
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:147
 msgid "Block with hash {headerHash} does not exist."
 msgstr "哈希为 {headerHash} 的区块不存在。"
 
@@ -264,23 +264,39 @@ msgstr "区块"
 msgid "Browse"
 msgstr "浏览"
 
-#: src/components/nfts/NFTBurnDialog.tsx:84
-#: src/components/nfts/NFTBurnDialog.tsx:170
+#: src/components/nfts/NFTBurnDialog.tsx:87
+#: src/components/nfts/NFTBurnDialog.tsx:173
 #: src/components/nfts/NFTContextualActions.tsx:616
 msgid "Burn"
 msgstr ""
 
-#: src/components/nfts/NFTBurnDialog.tsx:77
+#: src/components/nfts/NFTBurnDialog.tsx:78
 msgid "Burn NFT confirmation"
 msgstr ""
 
 #: src/components/nfts/NFTBurnDialog.tsx:122
-msgid "Burning a non-fungible token means destroying it. Burned NFTs are sent to a verifiably un-spendable address, eliminating your NFT from the blockchain. However, transactions leading up to the burn will remain on the blockchain ledger."
+#~ msgid "Burning a non-fungible token means destroying it. Burned NFTs are sent to a verifiably un-spendable address, eliminating your NFT from the blockchain. However, transactions leading up to the burn will remain on the blockchain ledger."
+#~ msgstr ""
+
+#: src/components/nfts/NFTBurnDialog.tsx:125
+msgid "Burning a non-fungible token means removing it from circulation by sending it to a verifiably un-spendable address. However, transactions leading up to the burn will remain on the blockchain ledger."
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:362
 msgid "Buy an NFT"
 msgstr ""
+
+#: src/components/offers/NFTOfferEditor.tsx:261
+#~ msgid "CAC for NFT"
+#~ msgstr "CAC兑换NFT"
+
+#: src/electron/main.tsx:604
+msgid "Cactus"
+msgstr "奇亚"
+
+#: src/electron/main.tsx:543
+msgid "Cactus Blockchain Wiki"
+msgstr "奇亚区块链项目维基"
 
 #: src/components/app/AppPassPrompt.tsx:184
 #: src/components/backup/BackupCreate.tsx:51
@@ -288,7 +304,7 @@ msgstr ""
 #: src/components/block/FullNodeAddConnection.tsx:85
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
 #: src/components/fullNode/FullNodeAddConnection.tsx:84
-#: src/components/nfts/NFTBurnDialog.tsx:160
+#: src/components/nfts/NFTBurnDialog.tsx:163
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:67
 #: src/components/nfts/NFTTransferConfirmationDialog.tsx:58
 #: src/components/offers/OfferAcceptConfirmationDialog.tsx:26
@@ -361,14 +377,6 @@ msgstr "在 SkyNFT 上检查出处"
 #: src/components/offers/NFTOfferPreview.tsx:199
 msgid "Check Provenance on Spacescan.io"
 msgstr "在Spacescan.io 上检查出处"
-
-#: src/electron/main.tsx:604
-msgid "Cactus"
-msgstr "奇亚"
-
-#: src/electron/main.tsx:543
-msgid "Cactus Blockchain Wiki"
-msgstr "奇亚区块链项目维基"
 
 #: src/components/app/AppSelectMode.tsx:155
 msgid "Choose Farming Mode"
@@ -695,7 +703,7 @@ msgstr "开发者工具"
 msgid "Dexie URL"
 msgstr "Dexie 链接"
 
-#: src/components/block/Block.jsx:199
+#: src/components/block/Block.jsx:204
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:14
 msgid "Difficulty"
 msgstr "难度"
@@ -726,7 +734,7 @@ msgstr "不再显示此对话框"
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "你的机器上有已经完成的农田文件吗？ <0>添加农田文件路径</0>"
 
-#: src/components/nfts/NFTBurnDialog.tsx:114
+#: src/components/nfts/NFTBurnDialog.tsx:117
 msgid "Do you want to burn this NFT?"
 msgstr ""
 
@@ -849,7 +857,7 @@ msgstr "设置私钥密码失败: {0}"
 msgid "Farmer Public Key"
 msgstr "农民公钥"
 
-#: src/components/block/Block.jsx:245
+#: src/components/block/Block.jsx:246
 msgid "Farmer Puzzle Hash"
 msgstr "农民解谜哈希"
 
@@ -901,7 +909,7 @@ msgstr "耕作模式"
 msgid "Farming Status"
 msgstr "耕种状态"
 
-#: src/components/nfts/NFTBurnDialog.tsx:149
+#: src/components/nfts/NFTBurnDialog.tsx:152
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:447
 #: src/components/nfts/NFTTransferAction.tsx:151
 #: src/components/offers/NFTOfferViewer.tsx:719
@@ -923,7 +931,7 @@ msgstr "费用(可选)"
 msgid "Fee is used TWICE: once to leave pool, once to join."
 msgstr "使用的是TWICE：一次离开池，一次加入。"
 
-#: src/components/block/Block.jsx:281
+#: src/components/block/Block.jsx:280
 msgid "Fees Amount"
 msgstr "费用"
 
@@ -1016,11 +1024,11 @@ msgstr "HashGreen 去中心化交易所网址"
 msgid "Header Hash"
 msgstr "头部哈希"
 
-#: src/components/block/Block.jsx:163
+#: src/components/block/Block.jsx:168
 msgid "Header hash"
 msgstr "头部哈希"
 
-#: src/components/block/Block.jsx:179
+#: src/components/block/Block.jsx:184
 #: src/components/fullNode/FullNode.jsx:75
 #: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "Height"
@@ -1079,13 +1087,17 @@ msgstr "如果未指定，将会使用上述临时目录。"
 msgid "If selected, your offer will be not be shared publicly."
 msgstr "如果选中，您的报价将不会公开共享。"
 
+#: src/components/nfts/NFTBurnDialog.tsx:81
+msgid "If you burn this NFT, nobody (including you) will ever be able to access it again. Are you sure you want to continue?"
+msgstr ""
+
 #: src/components/offers/OfferManager.tsx:129
 msgid "If you have already shared your offer file, you may need to submit a transaction to cancel the pending offer. Click \"Cancel on blockchain\" to submit a cancellation transaction."
 msgstr "如果您已经共享了您的报价文件，您可能需要提交交易以取消待处理的报价。 单击\"在区块链上取消\"以提交取消交易的交易。"
 
 #: src/components/nfts/NFTBurnDialog.tsx:79
-msgid "If you proceed, this NFT will be permanently deleted. Are you sure you want to continue?"
-msgstr ""
+#~ msgid "If you proceed, this NFT will be permanently deleted. Are you sure you want to continue?"
+#~ msgstr ""
 
 #: src/components/nfts/NFTPreview.tsx:92
 msgid "Image Hash Mismatch"
@@ -1282,8 +1294,8 @@ msgstr "正在加载农业数据"
 msgid "Loading keyring status"
 msgstr "正在载入密钥串状态"
 
-#: src/components/nfts/NFTPreview.tsx:197
-#: src/components/nfts/NFTPreview.tsx:229
+#: src/components/nfts/NFTPreview.tsx:198
+#: src/components/nfts/NFTPreview.tsx:230
 msgid "Loading preview..."
 msgstr "正在加载预览..."
 
@@ -1467,7 +1479,7 @@ msgstr "网络名称"
 msgid "New Passphrase"
 msgstr "新建私钥密码"
 
-#: src/components/block/Block.jsx:310
+#: src/components/block/Block.jsx:309
 msgid "Next"
 msgstr "下一步"
 
@@ -1483,7 +1495,7 @@ msgstr "尚未有区块有收获"
 msgid "No current offers"
 msgstr "当前没有报价"
 
-#: src/components/nfts/NFTPreview.tsx:185
+#: src/components/nfts/NFTPreview.tsx:186
 msgid "No file available"
 msgstr "没有可用文件"
 
@@ -1800,7 +1812,7 @@ msgstr "请等待钱包同步"
 msgid "Plot Count"
 msgstr "农田数"
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:258
 msgid "Plot Id"
 msgstr "农田ID"
 
@@ -1821,7 +1833,7 @@ msgstr "NFT农业合作社地址"
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgstr "p2_singleton_puzzle_hash为 {plotNFTId} 的农田NTF不存在。"
 
-#: src/components/block/Block.jsx:237
+#: src/components/block/Block.jsx:238
 msgid "Plot Public Key"
 msgstr "农田公钥"
 
@@ -1914,7 +1926,7 @@ msgstr "农业合作社登录链接"
 msgid "Pool Payout Instructions"
 msgstr "农业合作社支付说明"
 
-#: src/components/block/Block.jsx:241
+#: src/components/block/Block.jsx:242
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:308
 msgid "Pool Public Key"
 msgstr "池公钥"
@@ -1938,7 +1950,7 @@ msgstr "池奖励地址格式不正确。"
 msgid "Pool Reward Address must not be empty."
 msgstr "池奖励地址不能为空。"
 
-#: src/components/block/Block.jsx:273
+#: src/components/block/Block.jsx:272
 msgid "Pool Reward Amount"
 msgstr "池奖励金额"
 
@@ -1979,19 +1991,19 @@ msgstr "正在准备农田NFT"
 msgid "Preparing standard wallet"
 msgstr "正在准备标准钱包"
 
-#: src/components/nfts/NFTPreview.tsx:153
+#: src/components/nfts/NFTPreview.tsx:154
 msgid "Preview"
 msgstr "预览"
 
-#: src/components/nfts/NFTPreview.tsx:191
+#: src/components/nfts/NFTPreview.tsx:192
 msgid "Preview URL is not valid"
 msgstr "预览URL无效"
 
-#: src/components/block/Block.jsx:307
+#: src/components/block/Block.jsx:306
 msgid "Previous"
 msgstr "上一个"
 
-#: src/components/block/Block.jsx:193
+#: src/components/block/Block.jsx:198
 msgid "Previous Header Hash"
 msgstr "上个区块的头部哈希"
 
@@ -2009,7 +2021,7 @@ msgstr "档案名称"
 msgid "Profiles"
 msgstr "资料"
 
-#: src/components/block/Block.jsx:229
+#: src/components/block/Block.jsx:232
 msgid "Proof of Space Size"
 msgstr "空间证明的大小"
 
@@ -2212,7 +2224,7 @@ msgstr "自耕种。一旦发现新区块，你将得到全部CAC区块奖励。
 msgid "Sell an NFT"
 msgstr ""
 
-#: src/components/nfts/NFTBurnDialog.tsx:142
+#: src/components/nfts/NFTBurnDialog.tsx:145
 #: src/components/nfts/NFTTransferAction.tsx:142
 msgid "Send to Address"
 msgstr "发送至地址"
@@ -2278,7 +2290,7 @@ msgstr "显示详情"
 msgid "Show Hidden"
 msgstr ""
 
-#: src/components/nfts/NFTPreview.tsx:212
+#: src/components/nfts/NFTPreview.tsx:213
 msgid "Show Preview"
 msgstr "显示预览"
 
@@ -2438,7 +2450,7 @@ msgstr "农业合作社地址需要使用 https 协议。{normalizedUrl}"
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr "切换农业合作社操作已被取消。请重新尝试切换农业合作社，或自耕种。"
 
-#: src/components/block/Block.jsx:262
+#: src/components/block/Block.jsx:261
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "密语用于创建农田。农田是与农场池的公钥与农田的公钥相关联的。"
 
@@ -2458,15 +2470,15 @@ msgstr "请求的总额包括询问价格，加上相关的创建者费用(如�
 msgid "The total amount requested includes the asking price, plus the associated creator fees (if the NFT has royalty payments enabled).{0}"
 msgstr "请求的总金额包括询问价格，加上相关的创建者费用(如果启用了NFT使用了版税付款)。{0}"
 
-#: src/components/block/Block.jsx:206
+#: src/components/block/Block.jsx:211
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this block."
 msgstr "截至该子区块为止全链已完成的VDF(延迟验证函数) 或时间证明的迭代次数."
 
-#: src/components/block/Block.jsx:222
+#: src/components/block/Block.jsx:225
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "本区块上花费的总VDF(延迟验证函数) 或时间验证的迭代次数."
 
-#: src/components/block/Block.jsx:284
+#: src/components/block/Block.jsx:283
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "本区块上奖励给农民的全部交易费用。"
 
@@ -2495,7 +2507,7 @@ msgstr "此难度是比实际网络难度人为降低的难度，它将被用于
 msgid "This feature is available only from the GUI."
 msgstr "此功能只在图形界面中提供。"
 
-#: src/components/block/Block.jsx:172
+#: src/components/block/Block.jsx:177
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "此时间是该区块被农民创建的时间，因此，此时间会早于其被时间认证机制最终确认的时间。"
 
@@ -2555,7 +2567,7 @@ msgstr "第 2 阶段的线程倍数"
 msgid "Time Created"
 msgstr "创建时间"
 
-#: src/components/block/Block.jsx:167
+#: src/components/block/Block.jsx:172
 msgid "Timestamp"
 msgstr "时间戳"
 
@@ -2622,7 +2634,7 @@ msgstr "总农田大小："
 msgid "Total Size of Plots"
 msgstr "总农田大小："
 
-#: src/components/block/Block.jsx:203
+#: src/components/block/Block.jsx:208
 msgid "Total VDF Iterations"
 msgstr "总VDF迭代数"
 
@@ -2634,7 +2646,7 @@ msgstr "自区块开始以来的迭代数"
 msgid "Trade tokens"
 msgstr "交易令牌"
 
-#: src/components/block/Block.jsx:269
+#: src/components/block/Block.jsx:268
 msgid "Transactions Filter Hash"
 msgstr "交易过滤器哈希"
 
@@ -2677,8 +2689,8 @@ msgstr "无法打开浏览器。请从 https://keybase.io 安装 Keybase"
 msgid "Unassigned"
 msgstr "未分配的"
 
-#: src/components/nfts/NFTProfileDropdown.tsx:100
-#: src/components/nfts/NFTProfileDropdown.tsx:168
+#: src/components/nfts/NFTProfileDropdown.tsx:92
+#: src/components/nfts/NFTProfileDropdown.tsx:160
 msgid "Unassigned NFTs"
 msgstr "未分配的 NFT"
 
@@ -2820,11 +2832,11 @@ msgstr "警告：验证提供的 CAT 资产ID是否与您预期收到的代币�
 msgid "Warning: You're about to visit a website"
 msgstr "警告：您即将访问一个网站"
 
-#: src/components/block/Block.jsx:183
+#: src/components/block/Block.jsx:188
 msgid "Weight"
 msgstr "权重"
 
-#: src/components/block/Block.jsx:186
+#: src/components/block/Block.jsx:191
 msgid "Weight is the total added difficulty of all blocks up to and including this one"
 msgstr "权重是施加给所有块包括目前这块的额外的困难度."
 
@@ -2847,10 +2859,6 @@ msgstr "您想要将指定的 NFT 移动到一个资料之下吗？"
 #: src/components/nfts/NFTTransferAction.tsx:226
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr "您想要将指定的 NFT 转移给一个新的所有者吗？"
-
-#: src/components/offers/NFTOfferEditor.tsx:261
-#~ msgid "CAC for NFT"
-#~ msgstr "CAC兑换NFT"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:48
 #: src/electron/main.tsx:362

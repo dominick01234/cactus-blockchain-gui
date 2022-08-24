@@ -110,8 +110,8 @@ msgid "Error:"
 msgstr "Ошибка:"
 
 #: src/components/LayoutMain/LayoutFooter.tsx:50
-msgid "FAQ"
-msgstr "ЧаВо"
+#~ msgid "FAQ"
+#~ msgstr "ЧаВо"
 
 #: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:67
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:67
@@ -251,7 +251,6 @@ msgstr "Выбор ключа"
 msgid "Select..."
 msgstr "Выбрать..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:108
 msgid "Send Feedback"
 msgstr "Оставить отзыв"

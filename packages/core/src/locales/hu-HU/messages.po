@@ -110,8 +110,8 @@ msgid "Error:"
 msgstr "Hiba:"
 
 #: src/components/LayoutMain/LayoutFooter.tsx:50
-msgid "FAQ"
-msgstr "GYÍK"
+#~ msgid "FAQ"
+#~ msgstr "GYÍK"
 
 #: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:67
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:67
@@ -251,7 +251,6 @@ msgstr "Válasszon kulcsot"
 msgid "Select..."
 msgstr "Kiválasztás..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:108
 msgid "Send Feedback"
 msgstr "Visszajelzés küldése"

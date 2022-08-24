@@ -110,8 +110,8 @@ msgid "Error:"
 msgstr "Chyba:"
 
 #: src/components/LayoutMain/LayoutFooter.tsx:50
-msgid "FAQ"
-msgstr "Často kladené dotazy"
+#~ msgid "FAQ"
+#~ msgstr "Často kladené dotazy"
 
 #: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:67
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:67
@@ -251,7 +251,6 @@ msgstr "Vyberte klíč"
 msgid "Select..."
 msgstr "Zvolit..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:108
 msgid "Send Feedback"
 msgstr "Odeslat zpětnou vazbu"

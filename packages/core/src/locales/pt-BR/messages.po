@@ -110,8 +110,8 @@ msgid "Error:"
 msgstr ""
 
 #: src/components/LayoutMain/LayoutFooter.tsx:50
-msgid "FAQ"
-msgstr "Perguntas frequentes (FAQ)"
+#~ msgid "FAQ"
+#~ msgstr "Perguntas frequentes (FAQ)"
 
 #: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:67
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:67
@@ -251,7 +251,6 @@ msgstr "Selecione a chave"
 msgid "Select..."
 msgstr "Selecionar..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:108
 msgid "Send Feedback"
 msgstr "Enviar Sugestão"

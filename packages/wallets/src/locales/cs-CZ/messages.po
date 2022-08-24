@@ -41,15 +41,13 @@ msgid "Add Backup ID"
 msgstr "Přidat ID zálohy"
 
 #: src/components/hero/WalletHeroAdd.tsx:99
-msgid "Add Custom Token"
-msgstr "Přidat vlastní Token"
+#~ msgid "Add Custom Token"
+#~ msgstr "Přidat vlastní Token"
 
 #: src/components/WalletsList.tsx:54
 #: src/components/WalletsManageTokens.tsx:170
 #: src/components/cat/WalletCATCreateExistingSimple.tsx:61
 #: src/components/cat/WalletCATCreateSimple.tsx:70
-#: src/components/hero/WalletHeroAdd.tsx:64
-#: src/components/hero/WalletHeroWallets.tsx:83
 msgid "Add Token"
 msgstr "Přidat token"
 
@@ -106,6 +104,12 @@ msgstr ""
 msgid "Balance"
 msgstr "Zůstatek"
 
+#: src/components/cat/WalletCATSelect.tsx:25
+#: src/components/create/WalletCreateList.tsx:32
+#: src/constants/WalletName.ts:23
+msgid "Cactus Asset Token"
+msgstr "Cactus Asset Token"
+
 #: src/components/PasteMnemonic.tsx:78
 #: src/components/WalletRenameDialog.tsx:90
 msgid "Cancel"
@@ -119,12 +123,6 @@ msgstr "Cactus nelze odeslat na barevnou adresu. Zadejte prosím běžnou Cactus
 #: src/components/WalletsSidebar.tsx:145
 msgid "Check my snapshot balance"
 msgstr ""
-
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
-#: src/constants/WalletName.ts:23
-msgid "Cactus Asset Token"
-msgstr "Cactus Asset Token"
 
 #: src/components/WalletsSidebar.tsx:160
 msgid "Click here to download an older version of the wallet"
@@ -178,8 +176,8 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateExisting.tsx:76
-msgid "Create Cactus Asset Token Wallet from Existing TAIL"
-msgstr "Vytvořit Cactus Asset Token Peněženku z existující TAIL"
+#~ msgid "Create Cactus Asset Token Wallet from Existing TAIL"
+#~ msgstr "Vytvořit Cactus Asset Token Peněženku z existující TAIL"
 
 #: src/components/did/WalletDIDCreate.tsx:109
 msgid "Create Distributed Identity Wallet"
@@ -214,8 +212,8 @@ msgid "Create Transaction"
 msgstr "Vytvořit transakci"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:75
-msgid "Create custom CAT Wallet"
-msgstr "Vytvořit vlastní CAT peněženku"
+#~ msgid "Create custom CAT Wallet"
+#~ msgstr "Vytvořit vlastní CAT peněženku"
 
 #: src/constants/WalletName.ts:20
 msgid "Custody Wallet"
@@ -501,8 +499,8 @@ msgid "Please enter a puzzlehash"
 msgstr "Prosím zadejte puzzlehash"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:40
-msgid "Please enter a valid CAT name"
-msgstr "Zadejte prosím platný CAT název"
+#~ msgid "Please enter a valid CAT name"
+#~ msgstr "Zadejte prosím platný CAT název"
 
 #: src/components/cat/WalletCATCreateExistingSimple.tsx:41
 msgid "Please enter a valid asset id"
@@ -624,7 +622,6 @@ msgstr "Adresa příjemce"
 msgid "Recipient address is not a coloured wallet address. Please enter a coloured wallet address"
 msgstr "Adresa příjemce není barevná adresa peněženky. Zadejte prosím adresu barevné peněženky"
 
-#: src/components/cat/WalletCATCreateExisting.tsx:104
 #: src/components/cat/WalletDID.tsx:463
 #: src/components/did/WalletDID.tsx:463
 #: src/components/did/WalletDIDRecovery.tsx:124
@@ -667,13 +664,12 @@ msgstr ""
 msgid "Save"
 msgstr "Uložit"
 
-#: src/components/WalletTokenCard.tsx:144
+#: src/components/WalletTokenCard.tsx:198
 #: src/components/cat/WalletCATTAILDialog.tsx:71
 msgid "Search on Tail Database"
 msgstr "Hledat v Tail databázi"
 
 #: src/components/WalletsList.tsx:32
-#: src/components/hero/WalletHeroWallets.tsx:47
 msgid "Select Wallet"
 msgstr "Vybrat peněženku"
 
@@ -804,8 +800,8 @@ msgid "To"
 msgstr "Komu"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:85
-msgid "Token and Asset Issuance Limitations"
-msgstr "Omezení vydávání tokenu a aktiv"
+#~ msgid "Token and Asset Issuance Limitations"
+#~ msgstr "Omezení vydávání tokenu a aktiv"
 
 #: src/components/cat/WalletCATCreateSimple.tsx:45
 msgid "Token has empty asset id"
