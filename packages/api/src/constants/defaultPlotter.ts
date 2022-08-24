@@ -4,7 +4,7 @@ import defaultsForPlotter from '../utils/defaultsForPlotter';
 
 export default {
   displayName: 'Cactus Proof of Space',
-  options: optionsForPlotter(PlotterName.CACTUSPOS),
-  defaults: defaultsForPlotter(PlotterName.CACTUSPOS),
+  options: optionsForPlotter(PlotterName.Chiapos),
+  defaults: defaultsForPlotter(PlotterName.Chiapos),
   installInfo: { installed: true },
 };

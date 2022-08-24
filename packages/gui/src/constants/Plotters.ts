@@ -32,7 +32,7 @@ export const bladebitDefaults: PlotterDefaults = {
   delay: 0,
 };
 
-export const cactusposOptions: PlotterOptions = {
+export const chiaposOptions: PlotterOptions = {
   kSizes: [25, 32, 33, 34, 35],
   haveNumBuckets: true,
   haveMadmaxNumBucketsPhase3: false,
@@ -47,8 +47,8 @@ export const cactusposOptions: PlotterOptions = {
   canSetBufferSize: true,
 };
 
-export const cactusposDefaults: PlotterDefaults = {
-  plotterName: PlotterName.CACTUSPOS,
+export const chiaposDefaults: PlotterDefaults = {
+  plotterName: PlotterName.Chiapos,
   plotSize: 32,
   numThreads: 2,
   numBuckets: 128,
@@ -100,9 +100,9 @@ export const optionsForPlotter = (plotterName: PlotterName): PlotterOptions => {
       return bladebitOptions;
     case PlotterName.MADMAX:
       return madmaxOptions;
-    case PlotterName.CACTUSPOS: // fallthrough
+    case PlotterName.Chiapos: // fallthrough
     default:
-      return cactusposOptions;
+      return chiaposOptions;
   }
 };
 
@@ -112,8 +112,8 @@ export const defaultsForPlotter = (plotterName: PlotterName): PlotterDefaults =>
       return bladebitDefaults;
     case PlotterName.MADMAX:
       return madmaxDefaults;
-    case PlotterName.CACTUSPOS: // fallthrough
+    case PlotterName.Chiapos: // fallthrough
     default:
-      return cactusposDefaults;
+      return chiaposDefaults;
   }
 };

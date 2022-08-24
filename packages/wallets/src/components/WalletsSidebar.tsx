@@ -104,7 +104,7 @@ export default function WalletsSidebar() {
     );
 
   function handleOpenBlogPost() {
-    openExternal('https://www.cactus.net/cat2blog');
+    openExternal('https://www.cactus-network.net/cat2blog');
   }
 
   function openTokensInfoDialog() {
@@ -134,7 +134,7 @@ export default function WalletsSidebar() {
                 size="large"
                 onClick={() =>
                   openExternal(
-                    'https://cat1.cactus.net/#publicKey=' +
+                    'https://cat1.cactus-network.net/#publicKey=' +
                       privateKey.pk +
                       '&fingerprint=' +
                       fingerprint
@@ -156,7 +156,7 @@ export default function WalletsSidebar() {
           <p>
             <Trans>Want to see your old balance for yourself?</Trans>
           </p>
-          <Link target="_blank" href="https://www.cactus.net/download/">
+          <Link target="_blank" href="https://www.cactus-network.net/download/">
             <Trans>Click here to download an older version of the wallet</Trans>
           </Link>
         </ContentStyled>
